@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+
+    <style>
+        
+        .botao-voltar {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: gray;
+            text-decoration: none;
+            color: white;
+            border-radius: 8px;
+        }
+
+    </style>
+
+    <a href="./estrutura.html" class="botao-voltar">Voltar</a>
+    <br><br><br>
+
+    <form>
+        <input type="text" placeholder="Digite seu nome">
+        <input type="password" placeholder="Digite sua senha">
+
+        <!-- Jeito antigo -->
+        <input type="button" value="Botão normal">
+        <input type="submit" value="Botão submit">
+
+        <!-- Jeito novo -->
+        <button (click)="lancarAlert()"></button>
+        <button (click)="lancarAlert()"></button>
+    </form>
+
+
+    <script>
+
+        lancarAlert(); {
+            alert('cuzin bao');
+        }
+
+    </script>
+
+</body>
+</html>

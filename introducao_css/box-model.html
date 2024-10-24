@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+</head>
+<body>
+    
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrapper {
+            background-color: red;
+        }
+
+        .com-padding {
+            background-color: blue;
+            margin: 1rem;
+        }
+
+        .com-margin {
+            background-color: green;
+            margin: 1rem;
+        }
+        .com-borda {
+            border: 1px solid white;
+            margin: 1rem;
+            padding: 1rem;
+        }
+    </style>
+
+
+    <div class="wrapper">
+        <div class="com-padding">
+            <p>Com padding</p>
+        </div>
+        <div class="com-margin">
+            <p>Com margin</p>
+        </div>
+        <div class="com-borda">
+            <p>Com border, com margin</p>
+        </div>
+    </div>
+</body>
+</html>
